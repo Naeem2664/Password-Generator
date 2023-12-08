@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  
+}
+.generator{
+  max-width: 600px;
+  margin: 100px auto;
+  background-color: rgb(214, 171, 255);
+  padding: 30px;
+}
+h1{
+  text-align: center;
+}
+.generator .display-field{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.display-field input{
+  padding: 9px;
+  width: 500px;
+  border: none;
+  border-radius: 8px;
+}
+.display-field button:hover{
+  background-color: rgb(154, 154, 187);
+}
+
+.generate-field{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.generate-field input{
+  margin: 5px;
+}
